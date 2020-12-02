@@ -1,0 +1,66 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=OAUTH_Demo_Dev.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+A01_OAuth2_Login=A01_OAuth2_Login.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+custom_body_variables.txt=
+globals.h=
+lrw_custom_body.h=
+[Modified Actions]
+vuser_init=0
+A01_OAuth2_Login=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+A01_OAuth2_Login=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+A01_OAuth2_Login=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+A01_OAuth2_Login=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="DB_S01_Deposit_T03_EnterCredentials_Login__*delimiter*__OAUTH_S01_Demo_T01_LaunchHome__*delimiter*__OAUTH_S01_Demo_T02_ClickSignInWithGitHub"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+DB_S01_Deposit_T03_EnterCredentials_Login=
+OAUTH_S01_Demo_T01_LaunchHome=
+OAUTH_S01_Demo_T02_ClickSignInWithGitHub=

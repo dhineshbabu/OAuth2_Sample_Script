@@ -1,0 +1,21 @@
+POST /session HTTP/1.1
+Host: github.com
+Connection: keep-alive
+Content-Length: 506
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="87", "\"Not;A\\Brand";v="99", "Chromium";v="87"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+Origin: https://github.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _octo=GH1.1.126968772.1606881236; logged_in=no; _gh_sess=Co%2FH%2F87lmE86AHqTijKXYNtaaSYSvMR7Qa6Yp%2BIqtXCOz9Te8ww8ztqqd2NiW8%2F4M%2BvXxHUVaVRuDnBI96eYr1umoRFyxUiUvhdleKfMwZUFTg5PDLWrmGN%2F%2BcR7iseaacgazaiqVTkbRuw%2BGfbq2rXiVQlSqnjAoVRVoI64NGnF83jA4xyc1OJmzjQu08Ch609YBPUwaDIZfW5SWGnUtdOzc0g%2F3rIbAfhlocOwwkDW6VvWxw1IA5zoz3PdwZ%2Be1O2RYsENUGnBJ%2Bbk%2BOGwPQ%3D%3D--Q7HDGJat09Lot5Zm--4YTB4WK76dkayo5IKcBpnA%3D%3D; tz=Asia%2FCalcutta
+

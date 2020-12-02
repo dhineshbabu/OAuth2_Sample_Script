@@ -1,0 +1,948 @@
+[API Trapper      (3894:3420)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (18f4:3764)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (31b4:30b8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (31b4:3948)] ------------------------------------------------------------------------------------------
+[Network Analyzer (31b4:3948)] Load Network Traffic Analyzers:
+[Network Analyzer (31b4:3948)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (31b4:3948)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (31b4:3948)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (31b4:3948)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (31b4:3948)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (31b4:3948)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (31b4:3948)]     Analyzer Module: local_server (value=)
+[Network Analyzer (31b4:3948)] ------------------------------------------------------------------------------------------
+[Network Analyzer (31b4:1dac)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 172.217.163.195:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 3001  (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 216.58.200.141:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (31b4:28e4)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:28e4)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (31b4:3cf0)] "GET /"   
+[Network Analyzer (31b4:3cf0)]   (Sid:  2) Client -> Server @ : 631 bytes (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid:  2) Server -> Client : 1763 bytes  (Service=HTTP)
+[Network Analyzer (31b4:196c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3cf0)]   (Sid:  2) Connection Terminated (by Server)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 66.163.35.36:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (31b4:196c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:2230)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (31b4:2230)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1e58)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:1e58)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:23f0)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:23f0)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4: d1c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4: d1c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (31b4:1dac)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=87"   
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 3001  (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 448 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (31b4:1dac)]   (Sid:  3) Client -> Server @ : 1348 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 216.58.197.42:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3cbc)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 172.217.166.99:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid:  3) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  3) Server -> Client : 153 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  3) Server -> Client : 88 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3cbc)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3db8)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:3db8)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:4144)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:4144)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1cec)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 149 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1cec)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (31b4:3cf0)] "GET /style.css"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 10) Client -> Server @ : 509 bytes (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 10) Server -> Client : 1593 bytes  (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (31b4:3cf0)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 104.16.124.175:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid:  4) Client -> Server @ : 1136 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /metric/v1"   
+[Network Analyzer (31b4:1dac)]   (Sid:  4) Client -> Server @ : 301 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3518)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  7) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  8) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  7) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3518)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid:  8) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /css2?family=Arvo&family=Kumbh+Sans&display=swap"   
+[Network Analyzer (31b4:1dac)]   (Sid: 11) Client -> Server @ : 552 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /safebrowsing/csd/client_model_v5_variation_6.pb"   
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Client -> Server @ : 379 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  7) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4: 8bc)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1230 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  7) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 11) Server -> Client : 1092 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 11) Server -> Client : 122 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4: 8bc)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4: ac0)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4: ac0)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 974 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4: bf4)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4: bf4)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:4050)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:4050)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  4) Server -> Client : 422 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 12) Server -> Client : 1030 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (301c:4270)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (31b4:1dac)] "GET /axios/dist/axios.min.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Client -> Server @ : 503 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA2FwaQhtaXhwYW5lbANjb20AAAEAAQAAKRAAAAAAAABTAAwATwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 3001  (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABAmdjA2tpcwJ2MgNzY3IOa2FzcGVyc2t5LWxhYnMDY29tAAABAAEAACkQAAAAAAAAQwAMAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Server -> Client : 144 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Server -> Client : 746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 35.190.25.25:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (31b4:1dac)] "GET /axios@0.21.0/dist/axios.min.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Client -> Server @ : 510 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (31b4:25fc)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:25fc)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Server -> Client : 32 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /decide/?verbose=1&version=1&lib=web&token=94b5c311692e7c9d03cef9c9a7a32eaf&ip=1&_=1606881166081"   
+[Network Analyzer (31b4:1dac)]   (Sid: 20) Client -> Server @ : 539 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:3cf0)] "GET /main.js"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 19) Client -> Server @ : 493 bytes (Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 3001  (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (31b4:3cf0)]   (Sid: 19) Server -> Client : 729 bytes  (Service=HTTP)
+[Web Request      (31b4:3cf0)] "GET /github.png"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 23) Client -> Server @ : 542 bytes (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 23) Server -> Client : 8422 bytes  (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid: 20) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 20) Server -> Client : 258 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 20) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3cf0)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (31b4:3cf0)]   (Sid: 23) Connection Terminated (by Server)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABBWZvbnRzB2dzdGF0aWMDY29tAAABAAEAACkQAAAAAAAAUgAMAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 142.250.71.3:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 142.250.71.3:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (31b4:2ee4)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:2ee4)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (31b4:1dac)] "GET /s/arvo/v14/tDbD2oWUg0MKqScQ7Q.woff2"   
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Client -> Server @ : 556 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1230 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 973 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3530)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (31b4:1dac)] "GET /s/kumbhsans/v1/c4ml1n92AsfhuCq6tVsaioBd-Q.woff2"   
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Client -> Server @ : 568 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3530)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 24) Server -> Client : 1297 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 3001  (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid: 20) Client -> Server @ : 613 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /track/?verbose=1&ip=1&_=1606881181032"   
+[Network Analyzer (31b4:1dac)]   (Sid: 20) Client -> Server @ : 853 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 20) Server -> Client : 552 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:3cf0)] "GET /favicon.ico"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 26) Client -> Server @ : 543 bytes (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 26) Server -> Client : 399 bytes  (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 26) Connection Terminated (by Server)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (1f00: c9c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (3cb4: 790)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABBnVwZGF0ZQpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAE4ADABKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABBW10YWxrBmdvb2dsZQNjb20AAAEAAQAAKRAAAAAAAABTAAwATwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid: 15) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 15) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 172.217.26.195:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 74.125.68.188:5228   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (31b4:26ec)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:26ec)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid: 27) Client -> Server @ : 1337 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /service/update2/json?cup2key=10:2942810626&cup2hreq=ad66c691e7a51e25fe009c6f8865b9414195c881cbe551cebb4ba1a04bc09899"   
+[Network Analyzer (31b4:1dac)]   (Sid: 27) Client -> Server @ : 6873 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4: c30)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4: c30)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:1dac)]   (Sid: 27) Server -> Client : 1092 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 27) Server -> Client : 843 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 27) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:1dac)]   (Sid: 28) Client -> Server @ : 153 bytes (SSL)
+[Network Analyzer (31b4:1dac)]   (Sid: 28) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (31b4:1dac)]   (Sid: 28) Server -> Client : 65 bytes (SSL)
+[Network Analyzer (31b4:1dac)]   (Sid: 28) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 582 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /uma/v2"   
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 932 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABBnVwZGF0ZQpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAE4ADABKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  7) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  7) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 172.217.26.195:443   (Service=)  (Sid= 29)  PROXIED!
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  7) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  7) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 172.217.163.67:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (31b4:3b00)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:3b00)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Client -> Server @ : 1235 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /service/update2/json?cup2key=10:1799541844&cup2hreq=47e15d52a9cfecbb8c5698f4ef26b240b42aeabba38141445f6111225508107c"   
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Client -> Server @ : 6996 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1450)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:1450)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Server -> Client : 1096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Server -> Client : 1202 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /chrome/config/plugins_3/plugins_win.json"   
+[Network Analyzer (31b4:1dac)]   (Sid: 30) Client -> Server @ : 339 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 30) Server -> Client : 1230 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 30) Server -> Client : 1206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /uma/v2"   
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 2094 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 560 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (31b4:1dac)] "POST /uma/v2"
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 592 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 12769 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABEmVhc3lsaXN0LWRvd25sb2FkcwthZGJsb2NrcGx1cwNvcmcAAAEAAQAAKRAAAAAAAABBAAwAPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid: 15) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABDG5vdGlmaWNhdGlvbgthZGJsb2NrcGx1cwNvcmcAAAEAAQAAKRAAAAAAAABHAAwAQwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 15) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  5) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 368 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 45.64.104.117:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (31b4: 9f0)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (31b4: 9f0)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 103.205.143.81:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4: a6c)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (31b4: a6c)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Client -> Server @ : 380 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /service/update2/json"   
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 3001  (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Client -> Server @ : 1046 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /notification.json?addonName=adblockpluschrome&addonVersion=3.10&application=chrome&applicationVersion=87.0.4280.66&platform=chromium&platformVersion=87.0.4280.66&lastVersion=202012010538&downloadCount=4%2B&firstVersion=2019-E"   
+[Network Analyzer (31b4:1dac)]   (Sid: 32) Client -> Server @ : 681 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /easylist.txt?addonName=adblockpluschrome&addonVersion=3.10&application=chrome&applicationVersion=87.0.4280.66&platform=chromium&platformVersion=87.0.4280.66&lastVersion=202012010530&downloadCount=4%2B&firstVersion=2019-E"   
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Client -> Server @ : 682 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 32) Server -> Client : 315 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 32) Connection Terminated (by Server)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Server -> Client : 644 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Server -> Client : 286 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 29) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Server -> Client : 11811 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 31) Connection Terminated (by Server)
+[Web Request      (31b4:3cf0)] "GET /auth"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 33) Client -> Server @ : 675 bytes (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 33) Server -> Client : 450 bytes  (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABBmdpdGh1YgNjb20AAAEAAQAAKRAAAAAAAABZAAwAVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 13.234.176.102:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (31b4:164c)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:164c)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (31b4:1dac)] "GET /login/oauth/authorize?client_id=29535c9f20a9c389407b"   
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Client -> Server @ : 718 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Server -> Client : 1752 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Server -> Client : 210 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3cf0)]   (Sid: 33) Connection Terminated (by Server)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /uma/v2"   
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 2964 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"   
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Client -> Server @ : 776 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Server -> Client : 1654 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Server -> Client : 4129 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Server -> Client : 5328 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Server -> Client : 2785 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (31b4:1dac)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (31b4:1dac)] "POST /uma/v2"
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 592 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 13983 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (31b4:1dac)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 545 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABBmdpdGh1YgxnaXRodWJhc3NldHMDY29tAAABAAEAACkQAAAAAAAATAAMAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABAmdjA2tpcwJ2MgNzY3IOa2FzcGVyc2t5LWxhYnMDY29tAAABAAEAACkQAAAAAAAAQwAMAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Server -> Client : 144 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Server -> Client : 848 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.199.110.154:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.199.110.154:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.199.110.154:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (31b4:26e0)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (31b4:26e0)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:2710)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (31b4:2710)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (31b4:1dac)] "GET /assets/frameworks-dab626668288a951c68b47d6ec626b3f.css"   
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Client -> Server @ : 584 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /assets/site-2608aa18ebee05d0d02638d1c73ed5e4.css"   
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Client -> Server @ : 578 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 750 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:320c)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:320c)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1145 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (31b4:1dac)] "POST /uma/v2"
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 592 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /assets/github-8c3ca722e6c15250825d65bfce81542e.css"   
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Client -> Server @ : 580 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Client -> Server @ : 4967 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /assets/environment-f0adafbf.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Client -> Server @ : 546 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 765 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 9 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /assets/chunk-frameworks-6b40be10.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 764 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 857 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 823 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (2858:39ec)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (31b4:1dac)] "GET /assets/chunk-vendor-78fe54a2.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Client -> Server @ : 547 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /assets/behaviors-99c26261.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Client -> Server @ : 544 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 762 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 762 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.199.110.154:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.199.110.154:443   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /assets/unsupported-a85b1284.js"   
+[Network Analyzer (31b4: 738)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Client -> Server @ : 546 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /identicons/app/oauth_app/1425824"   
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Client -> Server @ : 1090 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 763 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4: 738)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 38) Server -> Client : 1185 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:330c)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 37) Server -> Client : 1104 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:443   (Service=)  (Sid= 42)  PROXIED!
+[Web Request      (31b4:1dac)] "GET /assets/settings-fce00487.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Client -> Server @ : 543 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /assets/sessions-d2e5da85.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Client -> Server @ : 543 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:330c)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 763 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 762 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 36) Server -> Client : 1320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 946 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /assets/chunk-runner-groups-13e1fec0.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Client -> Server @ : 554 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABEGNvbnRlbnQtYXV0b2ZpbGwKZ29vZ2xlYXBpcwNjb20AAAEAAQAAKRAAAAAAAABEAAwAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Server -> Client : 1900 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 763 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 681 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  6) Server -> Client : 847 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABCWNvbGxlY3RvcglnaXRodWJhcHADY29tAAABAAEAACkQAAAAAAAATAAMAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Server -> Client : 845 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 172.217.163.170:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 54.173.255.16:443   (Service=)  (Sid= 44)  PROXIED!
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA2FwaQZnaXRodWIDY29tAAABAAEAACkQAAAAAAAAVQAMAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:2188)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:2188)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 13.234.168.60:443   (Service=)  (Sid= 45)  PROXIED!
+[Web Request      (31b4:1dac)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIeCTbUe6I7-lmJEgUNKEstiRIFDc5BTHoSBQ0-NV3w?alt=proto"   
+[Network Analyzer (31b4:1dac)]   (Sid: 43) Client -> Server @ : 546 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 43) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4: 404)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (31b4: 404)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4: 274)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4: 274)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (31b4:1dac)] "GET /github/page_view?dimensions[page]=https%3A%2F%2Fgithub.com%2Flogin%3Fclient_id%3D29535c9f20a9c389407b%26return_to%3D%252Flogin%252Foauth%252Fauthorize%253Fclient_id%253D29535c9f20a9c389407b&dimensions[title]=Sign%20in%20to%20GitHub%20%C2%B7%20GitHub&dimensions[referrer]=http%3A%2F%2Flocalhost%3A3001%2F&dimensions[user_agent]=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F87.0.4280.66%20Safari%2F537.36&dimensions[screen_resolution]=2560x1080&dimensions[pixel_ratio]=0.8999999761581421&dimensions[browser_resolution]=1305x1030&dimensions[tz_seconds]=19800&dimensions[timestamp]=1606881265114&dimensions[referrer]=http%3A%2F%2Flocalhost%3A3001%2F&dimensions[request_id]=72CD%3A5B17%3A62D232%3A799370%3A5FC70FCE&dimensions[visitor_id]=545326724960161748&dimensions[region_edge]=ap-south-1&dimensions[region_render]=iad&&measures[performance_timing]=1-23636-23636-51211-51158-51158-50618-31419-23636-23636-23636--51211-0---23654-31364-31345---&&&dimensions[cid]=126968772.1606881236"   
+[Network Analyzer (31b4:1dac)]   (Sid: 44) Client -> Server @ : 1591 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /_private/browser/stats"
+[Network Analyzer (31b4:1dac)]   (Sid: 45) Client -> Server @ : 670 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 45) Client -> Server @ : 10281 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 45) Server -> Client : 1010 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 44) Server -> Client : 656 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:1dac)]   (Sid: 34) Connection Terminated (by Server)
+[Network Analyzer (31b4:1dac)]   (Sid: 45) Connection Terminated (by Server)
+[Network Analyzer (31b4:1dac)]   (Sid: 44) Connection Terminated (by Server)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABA2FwaQZnaXRodWIDY29tAAABAAEAACkQAAAAAAAAVQAMAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 13.234.168.60:443   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 13.234.168.60:443   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (31b4:10e8)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:10e8)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (31b4:1dac)] "POST /_private/browser/stats"   
+[Network Analyzer (31b4:1dac)]   (Sid: 46) Client -> Server @ : 901 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:308c)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:308c)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (31b4:1dac)] "POST /_private/browser/stats"   
+[Network Analyzer (31b4:1dac)]   (Sid: 47) Client -> Server @ : 908 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:1dac)]   (Sid: 46) Server -> Client : 1010 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 47) Server -> Client : 1006 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 41) Connection Terminated (by Client)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABBmdpdGh1YgNjb20AAAEAAQAAKRAAAAAAAABZAAwAVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Server -> Client : 846 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 13.234.210.38:443   (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (31b4:1e38)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1e38)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (31b4:1dac)]   (Sid: 48) Client -> Server @ : 1349 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /session"   
+[Network Analyzer (31b4:1dac)]   (Sid: 48) Client -> Server @ : 506 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 48) Server -> Client : 3769 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 48) Server -> Client : 148 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /login/oauth/authorize?client_id=29535c9f20a9c389407b"   
+[Network Analyzer (31b4:1dac)]   (Sid: 48) Client -> Server @ : 2296 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 48) Server -> Client : 7215 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 48) Server -> Client : 1363 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 42) Connection Terminated (by Client)
+[Web Request      (31b4:1dac)] "GET /assets/oauth-a3496082.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Client -> Server @ : 540 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 39) Connection Terminated (by Client)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 762 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 40) Server -> Client : 652 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /dns-query?dns=AAABAAABAAAAAAABAmdjA2tpcwJ2MgNzY3IOa2FzcGVyc2t5LWxhYnMDY29tAAABAAEAACkQAAAAAAAAQwAMAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"   
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid:  9) Server -> Client : 144 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 3001  (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid: 47) Client -> Server @ : 695 bytes (SSL)(Service=HTTP)
+[Web Request      (31b4:1dac)] "POST /_private/browser/stats"   
+[Network Analyzer (31b4:1dac)]   (Sid: 47) Client -> Server @ : 6813 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 47) Server -> Client : 1006 bytes (SSL) (Service=HTTP)
+[Web Request      (31b4:3cf0)] "GET /oauth-callback?code=a28085fe1ee7c2a7b193"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Client -> Server @ : 657 bytes (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Server -> Client : 381 bytes  (Service=HTTP)
+[Web Request      (31b4:3cf0)] "GET /?token=af7e27d67d1d62bc379c161d243e840485e897b8"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Client -> Server @ : 664 bytes (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Server -> Client : 1827 bytes  (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 49) Connection Terminated (by Client)
+[Web Request      (31b4:3cf0)] "GET /style.css"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Client -> Server @ : 642 bytes (Service=HTTP)
+[Web Request      (31b4:1dac)] "GET /axios/dist/axios.min.js"   
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Client -> Server @ : 503 bytes (SSL)(Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Server -> Client : 242 bytes  (Service=HTTP)
+[Network Analyzer (31b4:1dac)]   (Sid: 50) Connection Terminated (by Client)
+[Web Request      (31b4:3cf0)] "GET /main.js"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Client -> Server @ : 626 bytes (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Server -> Client : 242 bytes  (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer (31b4:1dac)]   (Sid: 14) Server -> Client : 746 bytes (SSL) (Service=HTTP)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Network Analyzer (31b4:3948)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 53)  PROXIED!
+[Web Request      (31b4:3cf0)] "GET /github.png"   
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Client -> Server @ : 676 bytes (Service=HTTP)
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Server -> Client : 243 bytes  (Service=HTTP)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3cf0)]   (Sid: 51) Connection Terminated (by Server)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (31b4:3948)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 9999  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (31b4:3948)] Address lookup for intel = 192.168.0.107
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (31b4:3948)] Request Connection: Remote Server @ 127.0.0.1:9999 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)

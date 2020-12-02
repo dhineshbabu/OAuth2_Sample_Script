@@ -1,0 +1,15 @@
+[t22]
+FileName1=t22.html
+URL1=https://github.com/login/oauth/authorize?client_id=29535c9f20a9c389407b
+Total=3
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_22.xml
+FileName2=t22_oauth-a3496082.html
+URL2=https://github.githubassets.com/assets/oauth-a3496082.js
+FileName3=t22_dns-query.html
+URL3=https://dns.google/dns-query?dns=AAABAAABAAAAAAABAmdjA2tpcwJ2MgNzY3IOa2FzcGVyc2t5LWxhYnMDY29tAAABAAEAACkQAAAAAAAAQwAMAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[ProtocolInfo]
+ProtocolId=QTWeb

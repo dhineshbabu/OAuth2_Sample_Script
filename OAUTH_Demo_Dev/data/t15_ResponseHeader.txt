@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Date: Wed, 02 Dec 2020 03:53:56 GMT
+Server: uma-collector
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+

@@ -1,0 +1,17 @@
+[t5]
+FileName1=t5.json
+URL1=https://api.mixpanel.com/decide/?verbose=1&version=1&lib=web&token=94b5c311692e7c9d03cef9c9a7a32eaf&ip=1&_=1606881166081
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+FileName2=t5_dns-query.html
+URL2=https://dns.google/dns-query?dns=AAABAAABAAAAAAABBWZvbnRzB2dzdGF0aWMDY29tAAABAAEAACkQAAAAAAAAUgAMAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+FileName3=t5_tDbD2oWUg0MKqScQ7Q.html
+URL3=https://fonts.gstatic.com/s/arvo/v14/tDbD2oWUg0MKqScQ7Q.woff2
+FileName4=t5_c4ml1n92AsfhuCq6tVsaioBd-Q.html
+URL4=https://fonts.gstatic.com/s/kumbhsans/v1/c4ml1n92AsfhuCq6tVsaioBd-Q.woff2
+[ProtocolInfo]
+ProtocolId=QTWeb

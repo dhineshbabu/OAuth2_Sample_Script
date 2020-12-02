@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Date: Wed, 02 Dec 2020 03:55:41 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Server: GitHub.com
+Status: 200 OK
+Vary: X-PJAX
+ETag: W/"2ee07c2c199ff62d2479966f5ad09541"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: user_session=JaSJ5Ma1EbSwKqOAifCEz1O_jWyN7o-vajS2x2e9TYybqHAw; path=/; expires=Wed, 16 Dec 2020 03:55:41 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: __Host-user_session_same_site=JaSJ5Ma1EbSwKqOAifCEz1O_jWyN7o-vajS2x2e9TYybqHAw; path=/; expires=Wed, 16 Dec 2020 03:55:41 GMT; SameSite=Strict; secure; HttpOnly
+Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 02 Dec 2020 04:55:41 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: _gh_sess=A1ekVrlOZ0pM%2FBfz2RFvyR9TnGINbSgVyZWVmqEvOv6WsuAiHH5k9TmFdrQkc6PVti4sBbAExfKBhXhPpYZpeU4pGMzdp9Pt4x4PjFjTQIc1cgmCHCRabftsgyYmEOkH9YvpEGHjsMYZv7W1ehEPP%2FBDlIUO6aVy6ao7tX3OXwIcCjXC8jVR2lm4305EzKeEWFCpLwsdT4ZJa5BU3tAi9fEAFHeRLHGlcgxoozfm%2FXM188poQalfLs48pYJqfuRw3XtW0Vi1Y9qPzgFvhTM6G9WQUAMjpZI7jvAOx0Csl2s8TP2RxBKyWvsxOHLxZz94gOUy2e8X1hDtfvYMIM%2FgQwrA%2F0POJjIhVPcIlvpNeZ06PXLD4W5yakzmRnlsB3hwVLgmWyzw5xgFjy%2FVZJxgL1k4JOfWoJs15eItU5o1JFDDZ%2BTz%2FsJqonR3%2FTbcnbDy91JdhAYnn%2FhXPShCfuE3uCqAx5KS4A73%2F0mUUKJsUAcdh3NTIfjm8uyi%2FFugud4QBhUdo5JPyvk2aib5TeecirADTND451DtWxmHnIzG7GN0wN2DwBQIU0j8rrIYI3ukFpmWyULxzAZTENMpUq4TI1YYORuSqsxPbsZFeTQ%2FxY14wgNSOdN8DGE1il2kk6q1Yl5XFPArHV4w6DX1eWfZq63xlwYVvq5QZisLcJPNjZAPMOaAm31Onx7XE%2FnhkWIg5khlkVgY89s4Hln%2BfE5h0p8nQDC7RG09FUChW3jVT2yeSljL--f2xCd1A8npm6JjKV--9v1YME9wBv3tskKMx3MYmg%3D%3D; path=/; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Expect-CT: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+Content-Security-Policy: default-src 'none'; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; script-src github.githubassets.com https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; child-src https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; style-src 'unsafe-inline' github.githubassets.com https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; base-uri 'self'; block-all-mixed-content; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'self'; frame-src render.githubusercontent.com https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; manifest-src 'self'; media-src 'none'; worker-src github.com/socket-worker.js gist.github.com/socket-worker.js
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 7302:5E52:668EB9:7E65B1:5FC7103D
+

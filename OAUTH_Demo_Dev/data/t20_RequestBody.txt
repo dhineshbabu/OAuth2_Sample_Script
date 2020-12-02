@@ -1,0 +1,3 @@
+"{\"stats\":[{\"webVitalTimings\":[{\"name\":\"https://github.com/login?client_id=29535c9f20a9c"
+"389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b\",\"lcp\":50"
+"813.775}],\"timestamp\":1606881331541,\"loggedIn\":false}]}"

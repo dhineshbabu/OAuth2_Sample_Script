@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Date: Wed, 02 Dec 2020 03:55:42 GMT
+Content-Type: text/plain
+Content-Length: 0
+Server: GitHub.com
+Status: 200 OK
+Cache-Control: no-cache
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 60
+X-RateLimit-Reset: 1606884942
+X-RateLimit-Used: 0
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 72FE:460E:08F4:64D4:5FC71034
+

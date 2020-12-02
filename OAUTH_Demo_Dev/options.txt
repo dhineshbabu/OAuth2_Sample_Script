@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\lenovo\Documents\VuGen\Scripts\OAuth_DEMO_SOLN\OAUTH_Demo_Dev
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\lenovo\documents\vugen\scripts\oauth_demo_soln\oauth_demo_dev\\logfile.log
+c:\users\lenovo\documents\vugen\scripts\oauth_demo_soln\oauth_demo_dev\\combined_OAUTH_Demo_Dev.c
+c:\users\lenovo\documents\vugen\scripts\oauth_demo_soln\oauth_demo_dev\\pre_cci.c

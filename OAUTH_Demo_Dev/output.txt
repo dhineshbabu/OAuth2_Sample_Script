@@ -1,0 +1,128 @@
+Virtual User Script started at: 02-12-2020 11:36:45
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (Nov 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\lenovo\Documents\VuGen\Scripts\OAuth_DEMO_SOLN\OAUTH_Demo_Dev\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action A01_OAuth2_Login.
+A01_OAuth2_Login.c(14): web_cache_cleanup started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(14): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+A01_OAuth2_Login.c(15): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(15): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+A01_OAuth2_Login.c(17): web_set_sockets_option started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(17): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+A01_OAuth2_Login.c(21): web_reg_find started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(21): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+A01_OAuth2_Login.c(25): Notify: Transaction "OAUTH_S01_Demo_T01_LaunchHome" started.
+A01_OAuth2_Login.c(28): web_url("{P_Host}") started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(28): Notify: Parameter Substitution: parameter "P_Host" =  "localhost:3001"
+A01_OAuth2_Login.c(28): Found resource "https://fonts.googleapis.com/css2?family=Arvo&family=Kumbh+Sans&display=swap" in HTML "http://localhost:3001/"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(28): Found resource "http://localhost:3001/style.css" in HTML "http://localhost:3001/"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(28): Found resource "https://unpkg.com/axios/dist/axios.min.js" in HTML "http://localhost:3001/"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(28): Found resource "http://localhost:3001/github.png" in HTML "http://localhost:3001/"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(28): Found resource "http://localhost:3001/main.js" in HTML "http://localhost:3001/"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(28): Redirecting "https://unpkg.com/axios/dist/axios.min.js" (redirection depth is 0)  	[MsgId: MMSG-26694]
+A01_OAuth2_Login.c(28): To location "https://unpkg.com/axios@0.21.0/dist/axios.min.js"  	[MsgId: MMSG-26693]
+A01_OAuth2_Login.c(28): Warning -26604: Unsupported "Content-Encoding"  	[MsgId: MWAR-26604]
+A01_OAuth2_Login.c(28): Registered web_reg_find successful for "Text=Happy to see you" (count=1)  	[MsgId: MMSG-26364]
+A01_OAuth2_Login.c(28): Notify: Saving Parameter "T01_TextSearch = 1".
+A01_OAuth2_Login.c(28): web_url("{P_Host}") highest severity level was "warning", 32673 body bytes, 3299 header bytes  	[MsgId: MMSG-26388]
+A01_OAuth2_Login.c(38): Notify: Parameter Substitution: parameter "T01_TextSearch" =  "1"
+A01_OAuth2_Login.c(39): Notify: Transaction "OAUTH_S01_Demo_T01_LaunchHome" ended with a "Pass" status (Duration: 0.5664 Wasted Time: 0.1768).
+A01_OAuth2_Login.c(45): lr_think_time: 2.00 seconds.
+A01_OAuth2_Login.c(55): web_reg_save_param started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(55): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+A01_OAuth2_Login.c(59): web_reg_save_param started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(59): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+A01_OAuth2_Login.c(63): web_reg_save_param started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(63): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+A01_OAuth2_Login.c(67): web_reg_save_param started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(67): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+A01_OAuth2_Login.c(71): web_reg_save_param started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(71): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+A01_OAuth2_Login.c(73): web_reg_find started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(73): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+A01_OAuth2_Login.c(77): Notify: Transaction "OAUTH_S01_Demo_T02_ClickSignInWithGitHub" started.
+A01_OAuth2_Login.c(79): web_url("auth") started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(79): Notify: Parameter Substitution: parameter "P_Host" =  "localhost:3001"
+A01_OAuth2_Login.c(79): Notify: Parameter Substitution: parameter "P_Host" =  "localhost:3001"
+A01_OAuth2_Login.c(79): Redirecting "http://localhost:3001/auth" (redirection depth is 0)  	[MsgId: MMSG-26694]
+A01_OAuth2_Login.c(79): To location "https://github.com/login/oauth/authorize?client_id=29535c9f20a9c389407b"  	[MsgId: MMSG-26693]
+A01_OAuth2_Login.c(79): Notify: Saving Parameter "C_clientid = 29535c9f20a9c389407b".
+A01_OAuth2_Login.c(79): Redirecting "https://github.com/login/oauth/authorize?client_id=29535c9f20a9c389407b" (redirection depth is 1)  	[MsgId: MMSG-26694]
+A01_OAuth2_Login.c(79): To location "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26693]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/frameworks-dab626668288a951c68b47d6ec626b3f.css" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/site-2608aa18ebee05d0d02638d1c73ed5e4.css" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/github-8c3ca722e6c15250825d65bfce81542e.css" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/environment-f0adafbf.js" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/chunk-frameworks-6b40be10.js" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/chunk-vendor-78fe54a2.js" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/behaviors-99c26261.js" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/unsupported-a85b1284.js" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/settings-fce00487.js" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Found resource "https://github.githubassets.com/assets/sessions-d2e5da85.js" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Notify: Saving Parameter "C_authenticity_token = MLGCgz+4E5cHzwNRTrMi7VqrvTBhPefOez6V7XvNu22x78w/45CWjE7YXsHo6/siPW3ElYUXY2xJ26GK3UKrYw==".
+A01_OAuth2_Login.c(79): Notify: Saving Parameter "C_required_field = 589a".
+A01_OAuth2_Login.c(79): Notify: Saving Parameter "C_timestamp = 1606889207812".
+A01_OAuth2_Login.c(79): Notify: Saving Parameter "C_timestamp_secret = 1037bd4d7629fdd411ae2537da090dfae264068236a8962070712bf6961ddf3d".
+A01_OAuth2_Login.c(79): Found resource "https://github.com/identicons/app/oauth_app/1425824" in HTML "https://github.com/login?client_id=29535c9f20a9c389407b&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(79): Registered web_reg_find successful for "Text=<title>Sign in to GitHub" (count=1)  	[MsgId: MMSG-26364]
+A01_OAuth2_Login.c(79): Notify: Saving Parameter "T02_TextSearch = 1".
+A01_OAuth2_Login.c(79): web_url("auth") was successful, 299921 body bytes, 13495 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+A01_OAuth2_Login.c(89): Notify: Parameter Substitution: parameter "T02_TextSearch" =  "1"
+A01_OAuth2_Login.c(90): Notify: Transaction "OAUTH_S01_Demo_T02_ClickSignInWithGitHub" ended with a "Pass" status (Duration: 1.2135 Wasted Time: 0.1007).
+A01_OAuth2_Login.c(96): lr_think_time: 2.00 seconds.
+A01_OAuth2_Login.c(102): web_reg_save_param started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(102): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+A01_OAuth2_Login.c(104): web_reg_save_param started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(104): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+A01_OAuth2_Login.c(106): Notify: Transaction "DB_S01_Deposit_T03_EnterCredentials_Login" started.
+A01_OAuth2_Login.c(108): web_submit_data("session") started  	[MsgId: MMSG-26355]
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_clientid" =  "29535c9f20a9c389407b"
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_clientid" =  "29535c9f20a9c389407b"
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_authenticity_token" =  "MLGCgz+4E5cHzwNRTrMi7VqrvTBhPefOez6V7XvNu22x78w/45CWjE7YXsHo6/siPW3ElYUXY2xJ26GK3UKrYw=="
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "P_GitUserName" =  "dhineshbabu89@gmail.com"
+A01_OAuth2_Login.c(108): Notify: Next row for parameter P_GitPassword = 1 [table  = P_GitPassword].
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "P_GitPassword" =  "Git8055"
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_clientid" =  "29535c9f20a9c389407b"
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_clientid" =  "29535c9f20a9c389407b"
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_required_field" =  "589a"
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_timestamp" =  "1606889207812"
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_timestamp_secret" =  "1037bd4d7629fdd411ae2537da090dfae264068236a8962070712bf6961ddf3d"
+A01_OAuth2_Login.c(108): Redirecting "https://github.com/session" (redirection depth is 0)  	[MsgId: MMSG-26694]
+A01_OAuth2_Login.c(108): To location "https://github.com/login/oauth/authorize?client_id=29535c9f20a9c389407b"  	[MsgId: MMSG-26693]
+A01_OAuth2_Login.c(108): Notify: Saving Parameter "C_Code = 8bf4d1661f739eb6ef6e".
+A01_OAuth2_Login.c(108): Detected non-resource "http://localhost:3001/oauth-callback?code=8bf4d1661f739eb6ef6e" in "https://github.com/login/oauth/authorize?client_id=29535c9f20a9c389407b"  	[MsgId: MMSG-26574]
+A01_OAuth2_Login.c(108): Resource "https://github.githubassets.com/assets/frameworks-dab626668288a951c68b47d6ec626b3f.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+A01_OAuth2_Login.c(108): Resource "https://github.githubassets.com/assets/github-8c3ca722e6c15250825d65bfce81542e.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+A01_OAuth2_Login.c(108): Resource "https://github.githubassets.com/assets/environment-f0adafbf.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+A01_OAuth2_Login.c(108): Resource "https://github.githubassets.com/assets/chunk-frameworks-6b40be10.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+A01_OAuth2_Login.c(108): Resource "https://github.githubassets.com/assets/chunk-vendor-78fe54a2.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+A01_OAuth2_Login.c(108): Resource "https://github.githubassets.com/assets/behaviors-99c26261.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+A01_OAuth2_Login.c(108): Found resource "https://github.githubassets.com/assets/oauth-a3496082.js" in HTML "https://github.com/login/oauth/authorize?client_id=29535c9f20a9c389407b"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(108): Notify: Saving Parameter "C_OAuthToken = d68b0237c89d6d9d5993f3bfd65bf5c841a14877".
+A01_OAuth2_Login.c(108): Redirecting "http://localhost:3001/oauth-callback?code=8bf4d1661f739eb6ef6e" (redirection depth is 0)  	[MsgId: MMSG-26694]
+A01_OAuth2_Login.c(108): To location "http://localhost:3001/?token=d68b0237c89d6d9d5993f3bfd65bf5c841a14877"  	[MsgId: MMSG-26693]
+A01_OAuth2_Login.c(108): Resource "https://fonts.googleapis.com/css2?family=Arvo&family=Kumbh+Sans&display=swap" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+A01_OAuth2_Login.c(108): Found resource "http://localhost:3001/style.css" in HTML "http://localhost:3001/?token=d68b0237c89d6d9d5993f3bfd65bf5c841a14877"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(108): Found resource "https://unpkg.com/axios/dist/axios.min.js" in HTML "http://localhost:3001/?token=d68b0237c89d6d9d5993f3bfd65bf5c841a14877"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(108): Found resource "http://localhost:3001/github.png" in HTML "http://localhost:3001/?token=d68b0237c89d6d9d5993f3bfd65bf5c841a14877"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(108): Found resource "http://localhost:3001/main.js" in HTML "http://localhost:3001/?token=d68b0237c89d6d9d5993f3bfd65bf5c841a14877"  	[MsgId: MMSG-26659]
+A01_OAuth2_Login.c(108): Redirecting "https://unpkg.com/axios/dist/axios.min.js" (redirection depth is 0)  	[MsgId: MMSG-26694]
+A01_OAuth2_Login.c(108): To location "https://unpkg.com/axios@0.21.0/dist/axios.min.js"  	[MsgId: MMSG-26693]
+A01_OAuth2_Login.c(108): Resource "https://unpkg.com/axios@0.21.0/dist/axios.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+A01_OAuth2_Login.c(108): web_submit_data("session") was successful, 4238 body bytes, 9776 header bytes, 23 chunking overhead bytes  	[MsgId: MMSG-26385]
+A01_OAuth2_Login.c(136): Notify: Parameter Substitution: parameter "C_OAuthToken" =  "d68b0237c89d6d9d5993f3bfd65bf5c841a14877"
+A01_OAuth2_Login.c(140): Notify: Transaction "DB_S01_Deposit_T03_EnterCredentials_Login" ended with a "Pass" status (Duration: 1.5135 Wasted Time: 0.0247).
+A01_OAuth2_Login.c(143): Notify: Parameter Substitution: parameter "C_OAuthToken" =  "d68b0237c89d6d9d5993f3bfd65bf5c841a14877"
+A01_OAuth2_Login.c(143): Received OAuth Token: d68b0237c89d6d9d5993f3bfd65bf5c841a14877
+Ending action A01_OAuth2_Login.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

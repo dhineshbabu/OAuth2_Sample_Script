@@ -1,0 +1,15 @@
+[t6]
+FileName1=t6.json
+URL1=https://api.mixpanel.com/track/?verbose=1&ip=1&_=1606881181032
+Total=3
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=t6_RequestBody.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_6.xml
+FileName2=t6_dns-query.html
+URL2=https://dns.google/dns-query?dns=AAABAAABAAAAAAABBnVwZGF0ZQpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAE4ADABKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+FileName3=t6_dns-query.html
+URL3=https://dns.google/dns-query?dns=AAABAAABAAAAAAABBW10YWxrBmdvb2dsZQNjb20AAAEAAQAAKRAAAAAAAABTAAwATwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[ProtocolInfo]
+ProtocolId=QTWeb

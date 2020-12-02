@@ -1,0 +1,15 @@
+[t19]
+FileName1=t19.txt
+URL1=https://api.github.com/_private/browser/stats
+Total=3
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=t19_RequestBody.txt
+ResponseHeaderFile=t19_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_19.xml
+FileName2=t19_page_view.gif
+URL2=https://collector.githubapp.com/github/page_view?dimensions[page]=https%3A%2F%2Fgithub.com%2Flogin%3Fclient_id%3D29535c9f20a9c389407b%26return_to%3D%252Flogin%252Foauth%252Fauthorize%253Fclient_id%253D29535c9f20a9c389407b&dimensions[title]=Sign%20in%20to%20GitHub%20%C2%B7%20GitHub&dimensions[referrer]=http%3A%2F%2Flocalhost%3A3001%2F&dimensions[user_agent]=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F87.0.4280.66%20Safari%2F537.36&dimensions[screen_resolution]=2560x1080&dimensions[pixel_ratio]=0.8999999761581421&dimensions[browser_resolution]=1305x1030&dimensions[tz_seconds]=19800&dimensions[timestamp]=1606881265114&dimensions[referrer]=http%3A%2F%2Flocalhost%3A3001%2F&dimensions[request_id]=72CD%3A5B17%3A62D232%3A799370%3A5FC70FCE&dimensions[visitor_id]=545326724960161748&dimensions[region_edge]=ap-south-1&dimensions[region_render]=iad&&measures[performance_timing]=1-23636-23636-51211-51158-51158-50618-31419-23636-23636-23636--51211-0---23654-31364-31345---&&&dimensions[cid]=126968772.1606881236
+FileName3=t19_dns-query.html
+URL3=https://dns.google/dns-query?dns=AAABAAABAAAAAAABA2FwaQZnaXRodWIDY29tAAABAAEAACkQAAAAAAAAVQAMAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[ProtocolInfo]
+ProtocolId=QTWeb

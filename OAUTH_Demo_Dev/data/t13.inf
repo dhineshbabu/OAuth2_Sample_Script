@@ -1,0 +1,13 @@
+[t13]
+FileName1=t13_notification.json
+URL1=https://notification.adblockplus.org/notification.json?addonName=adblockpluschrome&addonVersion=3.10&application=chrome&applicationVersion=87.0.4280.66&platform=chromium&platformVersion=87.0.4280.66&lastVersion=202012010538&downloadCount=4%2B&firstVersion=2019-E
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_13.xml
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t13_ResponseHeader.txt
+FileName2=t13_easylist.txt
+URL2=https://easylist-downloads.adblockplus.org/easylist.txt?addonName=adblockpluschrome&addonVersion=3.10&application=chrome&applicationVersion=87.0.4280.66&platform=chromium&platformVersion=87.0.4280.66&lastVersion=202012010530&downloadCount=4%2B&firstVersion=2019-E
+[ProtocolInfo]
+ProtocolId=QTWeb

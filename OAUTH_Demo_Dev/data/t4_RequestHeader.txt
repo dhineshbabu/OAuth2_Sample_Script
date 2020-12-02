@@ -1,0 +1,24 @@
+POST /metric/v1 HTTP/1.1
+Host: sec-tws-prod-vip.webex.com
+Connection: keep-alive
+Content-Length: 301
+sec-ch-ua: "Google Chrome";v="87", "\"Not;A\\Brand";v="99", "Chromium";v="87"
+confId: 00000000
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+Content-Type: text/plain
+siteId: 000000
+timeStamp: 1606881142935
+metricsTicket: YzJWakxYUjNjeTF3Y205a0xYWnBjQzUzWldKbGVDNWpiMjA9
+appName: Cisco-WebEx-Extension
+appId: 65014E32-67C8-4698-9D92-9528BE74F65A
+ver: 2.0
+Accept: */*
+Origin: chrome-extension://jlhmfgmfgeifomenelglieieghnjghma
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.660291669.1540230645; AMCV_5C0A123F5245AEEA0A490D45%40AdobeOrg=-330454231%7CMCIDTS%7C17954%7CMCMID%7C33134040184154537372368995207871490042%7CMCAAMLH-1551761274%7C3%7CMCAAMB-1551761274%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1551163673s%7CNONE%7CMCAID%7C2DC5B18F852A1772-6000011820051DD9%7CvVersion%7C3.1.2
+
