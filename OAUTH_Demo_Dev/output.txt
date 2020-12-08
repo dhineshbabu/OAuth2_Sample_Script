@@ -87,7 +87,7 @@ A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_clientid" 
 A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_authenticity_token" =  "MLGCgz+4E5cHzwNRTrMi7VqrvTBhPefOez6V7XvNu22x78w/45CWjE7YXsHo6/siPW3ElYUXY2xJ26GK3UKrYw=="
 A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "P_GitUserName" =  "dhineshbabu89@gmail.com"
 A01_OAuth2_Login.c(108): Notify: Next row for parameter P_GitPassword = 1 [table  = P_GitPassword].
-A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "P_GitPassword" =  "Git8055"
+A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "P_GitPassword" =  "xxxx"
 A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_clientid" =  "29535c9f20a9c389407b"
 A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_clientid" =  "29535c9f20a9c389407b"
 A01_OAuth2_Login.c(108): Notify: Parameter Substitution: parameter "C_required_field" =  "589a"
